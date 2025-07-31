@@ -1,1 +1,1 @@
-# Full-stack-project-12-Responsive-tab
+ I've successfully completed developing my JavaScript project (Responsive Tab content ) during my internship training at Atozerv India Pvt Ltd! - while pursuing my studies at V.S.B. College of Engineering Technical Campus. This journey has been a fantastic learning experience, providing me with hands-on practice and insights into real-world web development.
