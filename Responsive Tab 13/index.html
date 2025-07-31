@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <div class="top_flx">
+            <div>
+                <img src="./asset/img/motorbike-logo.png" class="logo_pic" height="150px" width="150px">
+            </div>
+            <div class="ani_byt">
+                <h1 class="head_cls_byt txt_down"><span class="bty_sty">BYT</span> <span style="color: red; font-style: italic;">T</span><span style="font-style: italic;">raders</span></h1>
+                <h6 class="txt_down"><span style="font-style: italic;">“A bad day on a mountain bike always beats a good day in the office.”</span></64>
+            </div>
+            <div class="login_btns_flx">
+                <div><button class="btn login_edit trn_ani">Log in</button></div>
+            </div>
+        </div><br>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div>
+                    <div class="cont_1">
+                        <!-- <button style="border: none;"  onclick="ola()"> -->
+                            <img src="./asset/img/ola-img-post.avif" onclick="ola()" style="border: none;" class=" pos_1 img_edit trn_ani "   height="170px" width="300px" alt="">
+                        <!-- </button> -->
+                         
+                    </div><br>
+                    <div class="cont_2">    
+                        <!-- <button style="border: none; height: 100%;"  onclick="tvs()"> -->
+                            <img src="./asset/img/tvs-img-post.jpeg" onclick="tvs()" style="border: none;" class="pos_2 img_edit trn_ani"   height="185px" width="300px" alt="">
+                        <!-- </button> -->
+                    
+                    </div><br>
+                    <div class="cont_3">
+                        <!-- <button style="border: none;" onclick="hero()"> -->
+                            <img src="./asset/img/hero-img-post.jpg" onclick="hero()" style="border: none;" class="pos_3 img_edit trn_ani"   height="170px" width="300px" alt="">
+                        <!-- </button> -->
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row" id="disp_tab">
+                    <div class="col-6">
+                        <div>
+                            <div>
+                                <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner bn_border">
+                                        <div class="carousel-item active">
+                                            <img src="./asset/img/ola-bn1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/ola-bn2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/ola-bn3.avif" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1"        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div><br>
+                        <div>
+                            <div>
+                                <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner bn_border ">
+                                        <div class="carousel-item active">
+                                            <img src="./asset/img/tvs-bn1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/tvs-bn2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/tvs-bn3.avif" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <div>
+                            <div>
+                                <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner bn3_border">
+                                        <div class="carousel-item active">
+                                            <img src="./asset/img/hero-bn1.jpg" height="560px"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/hero-bn2.webp" height="560px"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/hero-bn3.webp" height="560px"  class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3"        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div id="ola_tab"><br>
+                    <div class="crd_flx">
+                        <div class="card crd_adj"><img src="./asset/img/ola-img1.webp" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/ola-img2.webp" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/ola-img3.webp" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/ola-img4.webp" style="border-radius: 5px" alt=""></div>
+                    </div><br>
+                    <div>
+                        <h3 style="margin-left: 300px; color: brown;">"Silent. Swift. Smart. Ola."</h3>
+                    </div><br>
+                    <div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div>
+                                <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner bn_border">
+                                        <div class="carousel-item active">
+                                            <img src="./asset/img/ola-bn1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/ola-bn2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/ola-bn3.avif" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4"        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <p class="ola_para">Ola Electric, founded in 2017 and headquartered in Bengaluru, entered the Indian electric scooter market in 2021. Their flagship S1 series includes three main trims—S1 Air, S1, and S1 Pro—each offering distinct performance and range to suit different rider needs Ola Electric is an Indian electric vehicle company revolutionizing urban mobility with its smart, eco-friendly scooters. Known for stylish design, impressive performance, and advanced features like touchscreen displays, keyless access, and multiple ride modes, Ola scooters such as the S1 and S1 Pro offer excellent range and speed. With a focus on sustainability, Ola is making electric mobility affordable and accessible across India. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div id="tvs_tab">
+                    <div class="crd_flx">
+                        <div class="card crd_adj"><img src="./asset/img/tvs-img-post.jpeg" height="100%" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/tvs-img2.webp" height="100%" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/tvs-img3.jpg" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/tvs-img4.avif" style="border-radius: 5px" alt=""></div>
+                    </div><br>
+                    <div>
+                        <h3 style="margin-left: 300px; color: brown;">"Built for the rebel in you — TVS Ronin."</h3>
+                    </div><br>
+                    <div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div>
+                                <div id="carouselExampleAutoplaying5" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner bn_border">
+                                        <div class="carousel-item active">
+                                            <img src="./asset/img/tvs-bn1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/tvs-bn2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/tvs-bn3.avif" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5"        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <p class="ola_para">The TVS Ronin is a modern-retro motorcycle designed for riders who crave both style and versatility. With its unique scrambler-inspired design, the Ronin blends bold aesthetics with practical performance. It features a 225.9cc oil-cooled engine, dual-channel ABS, and a digital SmartXonnect console for Bluetooth connectivity. Whether you're cruising through the city or exploring weekend trails, the Ronin offers a smooth, confident ride with a distinct identity that stands out from the crowd. It's not just a bike — it’s a lifestyle statement. “one of the very best beginner friendly city and touring bikes” after 25k km — seamless for city use with a bit of touring  Engine vibrations increase beyond ~85 km/h </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="hero_tab">
+                    <div class="crd_flx">
+                        <div class="card crd_adj"><img src="./asset/img/hero-img1.avif" style="border-radius: 5px" height="100%" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/hero-img2.webp" style="border-radius: 5px" height="100%" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/hero-img3.jpg" style="border-radius: 5px" alt=""></div>
+                        <div class="card crd_adj"><img src="./asset/img/hero-img4.jpg" style="border-radius: 5px" alt=""></div>
+                    </div><br>
+                    <div>
+                        <h3 style="margin-left: 300px; color: brown;">"Don’t just ride. Conquer — with Xpulse."</h3>
+                    </div><br>
+                    <div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div>
+                                <div id="carouselExampleAutoplaying6" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner bn_border">
+                                        <div class="carousel-item active">
+                                            <img src="./asset/img/hero-img1.avif" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/hero-img2.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./asset/img/hero-img3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying6"        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying6" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <p class="ola_para">The Hero Xpulse isn’t just a motorcycle — it’s a gateway to the wild. Whether you're climbing rocky trails or cruising through backroads, the Xpulse handles it all with ease. It gives you the confidence to go off the map. From muddy tracks to mountain paths, every ride becomes an adventure worth remembering. The Hero XPulse 200 (4V) is a popular adventure‑commuter motorcycle in India, offering a compelling blend of off‑road ruggedness and city‑friendly comfort. It features a 199.6 cc oil‑cooled, 4‑valve single‑cylinder engine producing around 18.9 bhp at 8,500 rpm and 17.35 Nm torque at 6,500 rpm—sufficient punch for cruising up to ~115 km/h, though it feels most at ease in the 90 km/h zone </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <script src="./asset/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
